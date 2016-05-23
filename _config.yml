@@ -39,7 +39,7 @@ prose:
     - package.json
   metadata:
     _illustrations:
-      name: "layout"
-      field:
-        element: "hidden"
-        value: "illustrations"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "illustrations"
