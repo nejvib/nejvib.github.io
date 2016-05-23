@@ -1,4 +1,9 @@
-![shoe-test.jpg]({{site.baseurl}}/assets/images/shoe-test.jpg)
+---
+layout: illustrations
+published: true
+publish: true
+---
+![shoeone.JPG]({{site.baseurl}}/assets/images/shoeone.JPG)
 
 ## A New Post
 
