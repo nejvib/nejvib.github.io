@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "nejvib.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
-permalink: pretty
+# permalink: pretty
 
 collections:
   illustrations:
@@ -35,9 +35,5 @@ prose:
     - /js
     - /assets/fonts
     - .gitignore
-  # metadata:
-  #   _illustrations:
-  #     - name: "title"
-  #       field:
-  #         element: "text"
-  #         label: "Title"
+    - gulpfile.js
+    - package.json
