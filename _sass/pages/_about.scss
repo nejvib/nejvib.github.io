@@ -1,0 +1,35 @@
+.about__nejvi {
+  max-width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  position: relative;
+  display: flex;
+  &--fig {
+    width: 30rem;
+    margin: 1rem;
+  }
+  &--image {
+    max-width: 100%;
+  }
+  &--caption {
+    padding: 1rem 1rem 0;
+  }
+  &--words {
+    max-width: 20rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: $eight-hundred) {
+  .about__nejvi {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about__nejvi {
+    max-width: 75%;
+  }
+}

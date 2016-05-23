@@ -1,0 +1,37 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+  background-color: #fff;
+  color: $navy;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  letter-spacing: .1rem;
+  line-height: $base-line-height;
+}
+
+/**
+ * Links
+ */
+a {
+    color: $gray;
+    text-decoration: none;
+
+    &:hover {
+        color: $navy;
+    }
+}
+
+/**
+ * Lists
+ */
+
+li {
+  list-style: none;
+}

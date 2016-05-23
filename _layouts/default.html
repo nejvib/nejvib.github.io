@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <section class="header__content">
+      {% include header.html %}
+      {% include nav.html %}
+    </section>
+
+    <main class="page__content">
+      {{ content }}
+    </main>
+
+
+    <script src="/js/script.js"></script>
+
+  </body>
+
+</html>

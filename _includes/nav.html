@@ -1,0 +1,14 @@
+<nav class="site__nav">
+  <ul class="site__nav--main">
+    <li class="site__nav--main-item"><a class="site__nav--link" id="illustrations" href="/">illustrations</a>
+      <ul class="site__nav--sub">
+        {% for illustration in site.illustrations %}
+          <li class="site__nav--sub-item">
+            <a class="site__nav--link" href="{{ illustration.url | prepend: site.baseurl }}">- {{ illustration.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li class="site__nav--main-item" id="about"><a href="/about" class="site__nav--link">about</a></li>
+  </ul>
+</nav>

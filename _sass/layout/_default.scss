@@ -1,0 +1,25 @@
+.header__content,
+.page__content {
+  display: flex;
+  justify-content: space-around;
+  font-size: $small-font-size;
+}
+
+.header__content {
+  background-color: #fff;
+  opacity: .9;
+  position: fixed;
+  max-width: $max-body-width;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2
+}
+
+.page__content {
+  top: 5rem;
+  max-width: $max-body-width;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}

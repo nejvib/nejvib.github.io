@@ -1,0 +1,74 @@
+.site__header {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+
+  &--logo {
+    padding: 0 1rem;
+    font-size: $large-font-size;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+  }
+
+  &--nav-icon {
+    cursor: pointer;
+    width: 4rem;
+    padding: 1rem;
+    .middle-line {
+      margin: .25rem 0;
+      background: $gray;
+      height: .125rem;
+      display: block;
+      opacity: 1;
+      transition: opacity .3s ease;
+    }
+    &::before, &::after {
+      content: '';
+      height: .125rem;
+      background: $gray;
+      display: block;
+      transition: all .5s ease;
+    }
+  }
+}
+
+.active {
+  .middle-line {
+    margin: -.125rem 0; //removes half the margin top and bottom for x to meet at center
+    opacity: 0;
+  }
+  &::before {
+    transform: rotate(45deg);
+  }
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+
+@media (min-width: $eight-hundred) {
+  .site__header {
+    justify-content: center;
+
+    &--logo {
+      font-size: $large-font-size * 2;
+      a {
+        @include link;
+      }
+      a:hover {
+        @include hover;
+      }
+    }
+  }
+}

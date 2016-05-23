@@ -1,0 +1,46 @@
+// Colors
+$navy: #1b1b5a; // Navy
+$gray: #313335; // Gray
+$red: #7d1d3f; // Red
+
+// Font
+$base-font-family: 'AileronThin', sans-serif;
+$base-font-size: 16px;
+$small-font-size: $base-font-size * .75;
+$large-font-size: $base-font-size * 1.25;
+$base-line-height: 1.5;
+
+// Widths
+$max-body-width: 100rem; //1600px
+
+// Breakpoints
+$eight-hundred: 50em;
+
+// Shadows
+$box-shadow-light: 0 0 4px rgba(0, 0, 0, .14);
+$box-shadow-dark: 0 4px 8px rgba(0, 0, 0, .28);
+
+// Images
+$lrg-img-max-width: 75rem; //1200px
+$med-img-max-width: 35rem; //560px
+$sml-img-max-width: 25rem; //400px
+
+@mixin link {
+  color: transparent;
+  background-image: -webkit-linear-gradient(to left, white 0%, #a6206a 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(right, #a6206a 50%, transparent 50%);
+  background-image: linear-gradient(to left, #a6206a 50%, transparent 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-transition: .1s .3s;
+  transition: .1s .3s;
+  background-position: 100% 0;
+  background-size: 200% 200%;
+}
+
+@mixin hover {
+  background-position: 0 0;
+  color: $navy;
+  -webkit-transition: .4s .2s;
+  transition: .4s .2s;
+}

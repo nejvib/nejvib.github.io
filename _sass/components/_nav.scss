@@ -1,0 +1,52 @@
+.site__nav {
+  padding: 1em;
+  background: #fff;
+  position: fixed;
+  left: -100%;
+  top: 5rem;
+  height: 100vh;
+  transition: left .5s ease;
+  width: 100%;
+  z-index: 2;
+
+  &--main {
+    display: flex;
+    flex-flow: row wrap; //This sholud maybe change to column if in the future more items are added...
+    justify-content: center;
+    font-size: $base-font-size;
+    &-item {
+      margin: 0 1rem;
+    }
+  }
+  &--sub {
+    // opacity: 0;
+    font-size: $small-font-size;
+    // transition: opacity .6s ease;
+    &-item {
+      opacity: 0;
+      margin: 1rem 0;
+      transition: opacity .6s ease;
+    }
+  }
+}
+
+// .show {
+//   opacity: 1;
+// }
+.visible {
+  left: 0;
+}
+
+@media (min-width: $eight-hundred) {
+  .site__nav {
+    &--main-item {
+      font-size: $large-font-size;
+      a {
+        @include link;
+      }
+      a:hover {
+        @include hover;
+      }
+    }
+  }
+}
