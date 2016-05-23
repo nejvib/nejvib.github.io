@@ -3,7 +3,7 @@ layout: illustrations
 published: true
 publish: true
 ---
-![shoe-test.jpg]({{site.baseurl}}/assets/images/shoe-test.jpg)
+![shoeone.JPG]({{site.baseurl}}/assets/images/shoeone.JPG)
 
 ## A New Post
 
