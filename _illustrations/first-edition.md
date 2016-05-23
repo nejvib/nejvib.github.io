@@ -5,6 +5,7 @@ published: true
 ---
 ![bAndw.jpg]({{site.baseurl}}/assets/images/bAndw.jpg)
 Image in Black and White
+
 ![green.jpg]({{site.baseurl}}/assets/images/green.jpg)
 Other Image
 
