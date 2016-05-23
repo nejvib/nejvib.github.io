@@ -35,10 +35,9 @@ prose:
     - /js
     - /assets/fonts
     - .gitignore
-  metadata:
-    _illustrations:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          placeholder: "Your-Title-Here"
+  # metadata:
+  #   _illustrations:
+  #     - name: "title"
+  #       field:
+  #         element: "text"
+  #         label: "Title"
