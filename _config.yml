@@ -37,13 +37,8 @@ prose:
     - .gitignore
   metadata:
     _illustrations:
-      - name: "images"
-        field:
-          element: "textarea"
-          label: "Add image path"
-          placeholder: [assets/pathname/filename.jpg, assets/pathname/filename.jpg]
       - name: "title"
         field:
           element: "text"
           label: "Title"
-          value: "Your-Title-Here"
+          placeholder: "Your-Title-Here"
