@@ -17,10 +17,10 @@
   }
 
   & .words {
-    columns: 3;
-    column-width: 20rem;
-    column-rule: 1px dotted $navy;
-    column-gap: 3rem;
+    columns: 2;
+    column-width: 17rem;
+    column-gap: 1rem;
+    max-width: 80rem;
     padding: 1rem;
   }
 }
@@ -32,6 +32,9 @@
     }
     & p {
       font-size: $large-font-size;
+    }
+    & .words {
+      column-width: 26rem;
     }
   }
 }

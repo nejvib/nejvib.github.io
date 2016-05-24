@@ -214,6 +214,15 @@ a {
     color: #1b1b5a; }
 
 /**
+ * Blockquote
+ */
+blockquote {
+  border-left: 1px solid #1b1b5a;
+  padding-left: 5px; }
+  blockquote p {
+    font-size: 20px; }
+
+/**
  * Lists
  */
 li {
@@ -408,25 +417,27 @@ li {
       margin: 1rem auto 0;
       max-width: 100%; }
   .illustrations .words {
-    -webkit-columns: 3;
-       -moz-columns: 3;
-            columns: 3;
-    -webkit-column-width: 20rem;
-       -moz-column-width: 20rem;
-            column-width: 20rem;
-    -webkit-column-rule: 1px dotted #1b1b5a;
-       -moz-column-rule: 1px dotted #1b1b5a;
-            column-rule: 1px dotted #1b1b5a;
-    -webkit-column-gap: 3rem;
-       -moz-column-gap: 3rem;
-            column-gap: 3rem;
+    -webkit-columns: 2;
+       -moz-columns: 2;
+            columns: 2;
+    -webkit-column-width: 17rem;
+       -moz-column-width: 17rem;
+            column-width: 17rem;
+    -webkit-column-gap: 1rem;
+       -moz-column-gap: 1rem;
+            column-gap: 1rem;
+    max-width: 80rem;
     padding: 1rem; }
 
 @media (min-width: 800px) {
   .illustrations__title {
     font-size: 40px; }
   .illustrations p {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .illustrations .words {
+    -webkit-column-width: 26rem;
+       -moz-column-width: 26rem;
+            column-width: 26rem; } }
 
 .about__nejvi {
   max-width: 90%;
