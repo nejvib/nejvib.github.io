@@ -1,6 +1,6 @@
 ---
 layout: illustrations
-published: false
+published: true
 ---
 ## Test
 
