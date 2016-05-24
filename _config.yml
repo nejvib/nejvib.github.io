@@ -1,12 +1,10 @@
 # Site settings
 title: Nejvi
 email: nejvib@gmail.com
-description: Nejvi is an illustrator and fashion designer. This is her personal blog to showcase her writing and work.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "nejvib.github.io" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
-# permalink: pretty
+description: Nejvi is an illustrator and fashion designer. This is her personal site to showcase her work.
+baseurl: ""
+url: "nejvib.github.io"
+
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 
