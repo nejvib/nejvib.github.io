@@ -17,7 +17,6 @@
     for (var i = 0; i < subNavItems.length; i++) {
       subNavItems[i].style.opacity = 1
       subNavItems[i].style.transitionDelay = i/(i+2) + 's'
-      console.log(subNavItems[i])
     }
   }
 
