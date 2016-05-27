@@ -9,7 +9,9 @@
     this.classList.toggle('active')
     nav.classList.toggle('visible')
   }
-  illustrations.onclick = function(e) {
+
+  // illustrations subnav transitions called on click or hover
+  var itemTransition = function(e){
     e.preventDefault()
     subNav.classList.toggle('show')
     for (var i = 0; i < subNavItems.length; i++) {
@@ -18,6 +20,9 @@
       console.log(subNavItems[i])
     }
   }
+
+  illustrations.addEventListener('mouseover', itemTransition)
+  illustrations.addEventListener('click', itemTransition)
 })();
 
 //
